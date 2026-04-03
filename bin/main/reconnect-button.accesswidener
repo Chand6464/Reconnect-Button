@@ -1,0 +1,5 @@
+accessWidener	v1
+named
+
+# Allow calling the connect method
+accessible method net/minecraft/client/gui/screen/multiplayer/ConnectScreen connect (Lnet/minecraft/client/gui/screen/Screen;Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/network/ServerAddress;Lnet/minecraft/client/network/ServerInfo;ZLnet/minecraft/client/QuickPlayStatus$Option;)V

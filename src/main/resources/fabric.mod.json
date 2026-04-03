@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "reconnect-button",
+  "version": "${version}",
+  "name": "Reconnect Button",
+  "description": "Adds a reconnect button to the disconnect screen, similar to Lunar Client and Feather Client",
+  "authors": [
+    "Chand"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com",
+    "sources": "https://github.com"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.chand.reconnect.button.ReconnectButtonMod"
+    ]
+  },
+  "mixins": [
+    "reconnect-button.mixins.json"
+  ],
+  "accessWidener": "reconnect-button.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

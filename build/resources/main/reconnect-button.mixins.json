@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.chand.reconnect.button.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ConnectScreenMixin",
+    "DisconnectedScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
